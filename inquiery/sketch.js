@@ -335,32 +335,6 @@ function playerControler(speed)
     playerX += speed/5+playerPushBack
   }
 
-  if(keyIsDown(87))
-  {
-    playerY -= speed
-    
-  }
-
-  if(keyIsDown(83))
-  {
-    playerY += speed
-    
-  }
-  
-  if(keyIsDown(65))
-  {
-    playerX -= speed/5+playerPushBack
-    
-  }
-
-  if(keyIsDown(68))
-  {
-    playerX += speed/5+playerPushBack
-    
-  }
-
-
-
 }
 
 function cooseFunFacts()
