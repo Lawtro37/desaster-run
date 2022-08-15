@@ -335,32 +335,30 @@ function playerControler(speed)
     playerX += speed/5+playerPushBack
   }
 
-  //if(keyIsPressed === true)
-  //{
-  //if(keyCode === 87)
-  //{
-  //  playerY -= speed
-  //  
-  //}
+  if(keyIsDown(87))
+  {
+    playerY -= speed
+    
+  }
 
-  //if(keyCode === 83)
-  //{
-  //  playerY += speed
-  //  
-  //}
+  if(keyIsDown(83))
+  {
+    playerY += speed
+    
+  }
   
-  //if(keyCode === 65)
-  //{
-  //  playerX -= speed/5+playerPushBack
-  //  
-  //}
+  if(keyIsDown(65))
+  {
+    playerX -= speed/5+playerPushBack
+    
+  }
 
-  //if(keyCode === 68)
-  //{
-  //  playerX += speed/5+playerPushBack
-  //  
-  //}
- //}
+  if(keyIsDown(68))
+  {
+    playerX += speed/5+playerPushBack
+    
+  }
+
 
 
 }
